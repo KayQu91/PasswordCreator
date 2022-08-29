@@ -18,6 +18,6 @@ def create_password():
     passwordlist.write("Password: " + password + "\n")
     passwordlist.write("-"*30 + "\n")
     passwordlist.close()
-
+    print("Your password was created!")
 
 create_password()
